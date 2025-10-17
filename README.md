@@ -45,7 +45,8 @@ pip install requests beautifulsoup4 lxml
 python3 sha256_mark.py --file mark_rsv.txt
 
 
-Author
+### Author
 
 Mohammed Faiz
+CSC 6200
 Master of Science in Computer Science — Concordia University Wisconsin
