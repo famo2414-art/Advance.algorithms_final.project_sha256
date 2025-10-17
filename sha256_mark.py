@@ -120,10 +120,10 @@ def main(argv):
     t1 = sha256_hex(b"abc")
     assert t0 == "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "Empty string test failed"
     assert t1 == "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad", "'abc' test failed"
-    print("✅ SHA-256 implementation tests passed.")
-    print("📏 Raw length (chars):", len(raw))
-    print("📏 Normalized length (bytes, UTF-8):", len(b))
-    print("🔐 SHA-256(Book of Mark) =", sha256_hex(b))
+    print("SHA-256 implementation tests passed.")
+    print("Raw length (chars):", len(raw))
+    print("Normalized length (bytes, UTF-8):", len(b))
+    print("SHA-256(Book of Mark) =", sha256_hex(b))
 
 if __name__ == "__main__":
     main(sys.argv)
